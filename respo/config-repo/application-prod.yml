@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config-server
+
+server:
+  port: 9522
+  max-http-header-size: 8192
+  connection-timeout: 30000
+  tomcat:
+    accept-count: 1000
+    max-connections: 1000
+    max-threads: 1000
+    min-spare-threads: 200
+    uri-encoding: UTF-8
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9520/eureka/
