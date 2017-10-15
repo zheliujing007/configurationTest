@@ -48,3 +48,7 @@ feign:
       enabled: true
       mime-types: text/xml,application/xml,application/json
       min-request-size: 2048
+
+managment:
+  security:
+    enabled: false
