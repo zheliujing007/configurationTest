@@ -11,7 +11,7 @@ server:
   max-http-header-size: 8192
   connection-timeout: 30000
   tomcat:
-    accept-count: 100
+    accept-count: 1000
     max-connections: 200
     max-threads: 100
     min-spare-threads: 200
