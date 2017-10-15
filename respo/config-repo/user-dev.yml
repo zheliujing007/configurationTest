@@ -22,7 +22,7 @@ eureka:
     service-url:
       defaultZone: http://peer2:9521/eureka/
     healthcheck:
-      enabled: true
+      enabled: false
 
 hystrix:
   command:
