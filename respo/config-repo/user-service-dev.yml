@@ -5,6 +5,14 @@ spring:
     loadbalancer:
       retry:
         enabled: true
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: cluster1
+    port: 5672
+    username: cluster1
+    password: hanergy.com
 
 server:
   port: 9522
