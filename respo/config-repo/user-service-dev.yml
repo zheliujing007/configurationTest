@@ -15,7 +15,7 @@ spring:
     password: hanergy.com
 
 server:
-  port: 9522
+#  port: 9522
   max-http-header-size: 8192
   connection-timeout: 30000
   tomcat:
